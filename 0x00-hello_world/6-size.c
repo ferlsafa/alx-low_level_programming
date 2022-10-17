@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	printf("int: %ld \n", sizeof(int));
-	printf("float: %ld \n", sizeof(float));
-	printf("char: %ld \n", sizeof(char));
-	printf("double: %ld \n", sizeof(double));
+	printf("int: %lu \n", sizeof(int));
+	printf("float: %lu \n", sizeof(float));
+	printf("char: %lu \n", sizeof(char));
+	printf("double: %lu \n", sizeof(double));
 	return (0);
 }
