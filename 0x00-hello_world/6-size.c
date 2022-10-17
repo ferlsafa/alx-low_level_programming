@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	printf("int: %lu \n", (unsigned long) sizeof(int));
-	printf("float: %lu \n",(unsigned long) sizeof(float));
-	printf("char: %lu \n",(unsigned long) sizeof(char));
-	printf("double: %lu \n",(unsigned long) sizeof(double));
+	printf("int: %lu byte(s) \n", (unsigned long) sizeof(int));
+	printf("float: %lu byte(s) \n", (unsigned long) sizeof(float));
+	printf("char: %lu byte(s) \n", (unsigned long) sizeof(char));
+	printf("double: %lu byte(s) \n", (unsigned long) sizeof(double));
 	return (0);
 }
