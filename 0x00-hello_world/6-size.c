@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	printf("int: %ld," sizeof(int));
-	printf("float: %ld," sizeof(float));
-	printf("char: %c," sizeof(char));
+	printf("int: %ld \n:wq", sizeof(int));
+	printf("float: %ld \n", sizeof(float));
+	printf("char: %ld \n", sizeof(char));
 	return (0);
 }
